@@ -1,0 +1,17 @@
+
+;; ----- amx-history -----
+(
+ load-theme
+ evil-tutor-start
+ cd
+ 5x5
+ amx
+ arp
+ dbx
+)
+
+;; ----- amx-data -----
+(
+ (evil-tutor-start . 1)
+ (load-theme . 4)
+)

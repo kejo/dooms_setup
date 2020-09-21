@@ -1,0 +1,42 @@
+Usage: doom [-hyd] [COMMAND]
+
+A command line interface for managing Doom Emacs.
+
+Includes package management, diagnostics, unit tests, and byte-compilation.
+
+This tool also makes it trivial to launch Emacs out of a different folder or
+with a different private module.
+
+Options:
+  -h, --help        
+    Same as help command
+  -y, --yes         
+    Auto-accept all confirmation prompts
+  -d, --debug       
+    Enables on verbose output
+  --doomdir DIR     
+    Use the private module at DIR (e.g. ~/.doom.d)
+  --localdir DIR    
+    Use DIR as your local storage directory
+
+Commands:
+  help             Describe a command or list them all.
+  install          Installs and sets up Doom Emacs for the first time.
+  sync             Synchronize your config with Doom Emacs.
+  env              Creates or regenerates your envvars file.
+  upgrade          Updates Doom and packages.
+  build            Byte-compiles & symlinks installed packages.
+  purge            Deletes orphaned packages & repos, and compacts them.
+
+  Diagnostics:     For troubleshooting and diagnostics
+    doctor           Diagnoses common issues on your system.
+    info             Output system info in markdown for bug reports.
+    version          Show version information for Doom & Emacs.
+
+  Compilation:     For compiling Doom and your config
+    compile          Byte-compiles your config or selected modules.
+    clean            Delete all *.elc files.
+
+  Utilities:       Conveniences for interacting with Doom externally
+    run              Run Doom Emacs from bin/doom's parent directory.
+

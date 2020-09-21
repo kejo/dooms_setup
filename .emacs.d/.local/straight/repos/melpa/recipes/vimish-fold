@@ -1,0 +1,1 @@
+(vimish-fold :repo "seregaxvm/vimish-fold" :fetcher github)

@@ -1,0 +1,1 @@
+/home/ketan/.emacs.d/.local/straight/repos/pip-requirements.el/pip-requirements.el

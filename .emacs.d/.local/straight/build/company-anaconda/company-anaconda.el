@@ -1,0 +1,1 @@
+/home/ketan/.emacs.d/.local/straight/repos/company-anaconda/company-anaconda.el

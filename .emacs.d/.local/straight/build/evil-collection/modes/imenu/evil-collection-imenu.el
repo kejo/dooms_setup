@@ -1,0 +1,1 @@
+/home/ketan/.emacs.d/.local/straight/repos/evil-collection/modes/imenu/evil-collection-imenu.el
